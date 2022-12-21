@@ -23,3 +23,46 @@ This repository contains [Jsonnet](https://jsonnet.org/) functions for generatin
 >
 > If you would like to contribute a change, you may open a Pull Request with a suggested change, but please note that it
 > will **not be merged in until the necessary updates have been made to the generator**.
+
+
+## Usage
+
+Install the package using [jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler):
+
+```
+jb install github.com/tf-libsonnet/PROVIDER_NAME@main
+
+# Or if you want to install a specific release
+#   jb install github.com/tf-libsonnet/PROVIDER_NAME@v0.0.1
+# Or if you want to install bindings for a specific provider major version series
+#   jb install github.com/tf-libsonnet/PROVIDER_NAME/MAJOR.x@main
+```
+
+You can then import the package in your Jsonnet code:
+
+```jsonnet
+TODO
+```
+
+This will generate the following Terraform JSON :
+
+```json
+TODO
+```
+
+Refer to the [reference docs](/docs/MAJOR.x/README.md) for a list of supported data sources and resources:
+
+- [provider config](/docs/MAJOR.x/provider.md)
+- [resources](/docs/MAJOR.x/README.md)
+- [data sources](/docs/MAJOR.x/data/index.md)
+
+
+## Support
+
+If you have any questions about how to use the `tf.libsonnet` libraries, ask in the [Organization GitHub
+Discussion](https://github.com/orgs/tf-libsonnet/discussions).
+
+
+## Contributing
+
+Refer to the [CONTRIBUTING.md](/CONTRIBUTING.md) document for information on how to contribute to `tf.libsonnet`.
